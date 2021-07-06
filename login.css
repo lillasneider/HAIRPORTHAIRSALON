@@ -1,0 +1,114 @@
+header #logo {
+    display: inline;
+    position: relative;
+    font: 200px Helvetica, Sans-Serif;
+    letter-spacing: -5px;
+    color: rgba(0, 0, 255, 0.5);
+}
+
+body {
+    height: 100%;
+}
+
+header {
+    background-image: url("../images/loginpic.jpg");
+    text-align: center;
+    width: 100%;
+    height: auto;
+    background-size: 100% auto;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+    border-radius: 0 0 100% 100% / 0%;
+}
+
+.overlay {
+    height: 100%;
+    padding: 50px;
+    color: #fff;
+    text-shadow: 1px 1px 1px #333;
+    background-image: initial(135deg, #9f05ff69 10%, #fd5e086b 100%);
+}
+h1 {
+    font-family: 'italic', serif;
+    font-size: 80px;
+    margin-bottom: 30px;
+}
+
+h3,
+p {
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 30px;
+}
+
+
+.logo img {
+    width: 220px;
+    height: auto;
+    float: left;
+}
+
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.login-button {
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: #199;
+    background: #fff;
+    margin-bottom: 50px;
+    box-shadow: 0 3px 20px 0 #0000003b;
+}
+
+.login-button:hover {
+    cursor: pointer;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+  width:50%;
+  margin:auto;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color: white;
+}
+
+/* The "Forgot password" text */
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}

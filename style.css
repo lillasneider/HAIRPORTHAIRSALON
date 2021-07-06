@@ -1,0 +1,162 @@
+header #logo {
+    display: inline;
+    position: relative;
+    font: 200px Helvetica, Sans-Serif;
+    letter-spacing: -5px;
+    color: rgba(0, 0, 255, 0.5);
+}
+
+body {
+    height: 900px;
+}
+
+header {
+    background: url('https://wallpaperplay.com/walls/full/2/2/a/324091.jpg');
+    text-align: center;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+    border-radius: 0 0 100% 100% / 0%;
+}
+
+.overlay {
+    height: 100%;
+    padding: 50px;
+    color: #fff;
+    text-shadow: 1px 1px 1px #333;
+    background-image: initial(135deg, #9f05ff69 10%, #fd5e086b 100%);
+}
+
+h1 {
+    font-family: 'italic', serif;
+    font-size: 80px;
+    margin-bottom: 30px;
+}
+
+h3,
+p {
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 30px;
+}
+
+.holiday_button {
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: #199;
+    background: #fff;
+    margin-bottom: 50px;
+    box-shadow: 0 3px 20px 0 #0000003b;
+}
+
+.holiday_button:hover {
+    cursor: pointer;
+}
+
+.logo img {
+    width: 220px;
+    height: auto;
+    float: left;
+}
+
+
+/*features*/
+
+.features {
+    padding: 10px 0;
+    text-align: center;
+    color: turquoise;
+}
+
+.feature_list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.feature-box {
+    display: inline-block;
+    width: 20%;
+    vertical-align: baseline;
+    padding: 25px;
+}
+
+.key-feature_description {
+    text-align: center;
+    font-weight: bold;
+    color: turquoise;
+    font-size: 30px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.feature-img img {
+    height: 200px;
+    width: 300px;
+}
+
+.banner {
+    background-image: url("../images/maldives.jpg");
+    background-origin: content-box;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+
+.banner-highlights {
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 170px;
+    width: 100%;
+    transform: translate(-50%, -50%);
+}
+
+.banner-highlights h2 {
+    position: absolute;
+    left: 25%;
+    top: 30px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.banner-highlights p {
+    position: absolute;
+    left: 21%;
+    top: 70px;
+}
+
+.booking-btn {
+    outline: none !important;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    background: transparent;
+    color: #fff;
+    top: 70px;
+    right: 25%;
+    position: absolute;
+    width: 120px;
+    height: 30px;
+    line-height: 27px;
+    cursor: pointer;
+}
+
+.booking-btn:hover,
+.booking-btn:active {
+    background: white;
+    color: black;
+}
+
+.booking-btn:focus {
+    outline: none;
+}

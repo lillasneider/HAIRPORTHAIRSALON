@@ -1,0 +1,94 @@
+header #logo {
+    display: inline;
+    position: relative;
+    font: 200px Helvetica, Sans-Serif;
+    letter-spacing: -5px;
+    color: rgba(0, 0, 255, 0.5);
+}
+
+body {
+    height: 900px;
+}
+
+header {
+    background: url("../images/snork.jpg");
+    text-align: center;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+    border-radius: 0 0 100% 100% / 0%;
+}
+
+.overlay {
+    height: 100%;
+    padding: 50px;
+    color: #fff;
+    text-shadow: 1px 1px 1px #333;
+    background-image: initial(135deg, #9f05ff69 10%, #fd5e086b 100%);
+}
+
+h1 {
+    font-family: 'italic', serif;
+    font-size: 80px;
+    margin-bottom: 30px;
+}
+
+h3,
+p {
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 30px;
+}
+
+.logo img {
+    width: 220px;
+    height: auto;
+    float: left;
+}
+
+.maledesc {
+    text-align: left;
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+    font-family: 'Lobster Two', cursive;
+}
+
+.place {
+    font-size: 20px;
+    margin: 48px 0;
+}
+
+.place__image-container {
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    box-shadow: 3px 3px 3px 3px rgb(0, 0, 0, 0.3)
+}
+
+.place__image {
+    width: 100%;
+    vertical-align: top;
+}
+
+.place__info {
+    text-align: left;
+    padding: 14px;
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+}
+
+.place__name {
+    margin: 3px;
+    color: turquoise;
+    font-family: 'Lobster Two', cursive;
+}
+
+.place__text {
+    margin: 3px;
+    font-size: 0.875em;
+    /* 14px/16=0.875em */
+}
